@@ -1,0 +1,6 @@
+@CidadesInteligentesAPI_HostAddress = http://localhost:5194
+
+GET {{CidadesInteligentesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

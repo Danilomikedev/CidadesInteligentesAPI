@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "4bgBNjIuLmAU9w4dBUXTMCBDXyqGDaGBFCywjvTPsTo=",
+  "Source": "CidadesInteligentesAPI",
+  "BasePath": "_content/CidadesInteligentesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CidadesInteligentesAPI\\wwwroot",
+      "Source": "CidadesInteligentesAPI",
+      "ContentRoot": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\wwwroot\\",
+      "BasePath": "_content/CidadesInteligentesAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\wwwroot\\index.html",
+      "SourceId": "CidadesInteligentesAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\wwwroot\\",
+      "BasePath": "_content/CidadesInteligentesAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

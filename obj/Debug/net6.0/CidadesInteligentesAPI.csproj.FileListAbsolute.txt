@@ -1,0 +1,7 @@
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.csproj.AssemblyReference.cache
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.AssemblyInfoInputs.cache
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.AssemblyInfo.cs
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DESKTOP\CidadesInteligentesAPI\obj\Debug\net6.0\CidadesInteligentesAPI.sourcelink.json

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CidadesInteligentesAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CidadesInteligentesAPI.props",
+      "PackagePath": "build\\CidadesInteligentesAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CidadesInteligentesAPI.props",
+      "PackagePath": "buildMultiTargeting\\CidadesInteligentesAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CidadesInteligentesAPI.props",
+      "PackagePath": "buildTransitive\\CidadesInteligentesAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
