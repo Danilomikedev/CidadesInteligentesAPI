@@ -1,0 +1,31 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - master   
+  pull_request:
+    branches:
+      - master   # ou 'main'
+
+jobs:
+  build:
+    runs-on: windows-latest   # ou ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0.x'   
+
+    - name: Restore dependencies
+      run: dotnet restore CidadesInteligentesAPI.csproj
+
+    - name: Build
+      run: dotnet build CidadesInteligentesAPI.csproj --configuration Release --no-restore
+
+    - name: Run Tests
+      run: dotnet test CidadesInteligentesAPI.csproj --no-restore --verbosity normal
