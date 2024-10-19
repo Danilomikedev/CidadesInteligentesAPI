@@ -1,0 +1,42 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - master # ou 'main', dependendo do seu branch principal
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Especifica o ambiente onde o job será executado
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2  # Faz o checkout do código do repositório
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v1  # Configura a versão do .NET SDK
+        with:
+          dotnet-version: '8.0.x'  # **Mantenha ou altere a versão do .NET conforme necessário**
+
+      - name: Restore dependencies
+        run: dotnet restore  # Restaura as dependências do projeto
+
+      - name: Build
+        run: dotnet build --configuration Release  # Compila o projeto em modo Release
+      
+      - name: Run Tests
+        run: dotnet test --configuration Release  # Executa os testes do projeto
+
+  deploy:
+    runs-on: ubuntu-latest  # Especifica o ambiente onde o job será executado
+    needs: build  # Este job só será executado após o job de build ser concluído
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2  # Faz o checkout do código do repositório
+
+      - name: Azure Web App Deploy
+        uses: azure/webapps-deploy@v2  # Usando a ação para implantar no Azure
+        with:
+          app-name: CidadesInteligentesAPI  # 
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}  # Utiliza o segredo que contém o publish profile
+          package: '.'  # O diretório que contém o pacote a ser implantado (o diretório atual)
