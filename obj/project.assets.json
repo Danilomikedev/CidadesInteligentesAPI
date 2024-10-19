@@ -1260,32 +1260,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45001842875\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DESKTOP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\DESKTOP\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI.csproj",
       "projectName": "CidadesInteligentesAPI",
-      "projectPath": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI.csproj",
-      "packagesPath": "C:\\Users\\45001842875\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45001842875\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\obj\\",
+      "projectPath": "C:\\Users\\DESKTOP\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI.csproj",
+      "packagesPath": "C:\\Users\\DESKTOP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DESKTOP\\Documents\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\CidadesInteligentesAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\45001842875\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\DESKTOP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1345,7 +1337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
